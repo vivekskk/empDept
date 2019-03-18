@@ -1,4 +1,4 @@
-# empDept
+# Employees with Department
 
 
 I have created a sample Angular 7.1.4 project : list of employees with department names.
@@ -13,7 +13,7 @@ Since, This project was generated with Angular CLI version 7.1.4.
 
 ## Steps to run:
 
-Need to configure with SVN, then excute the following below steps in command-line:
+To excute the following below steps in command-line:
 
 1. npm update
 2. ng build
