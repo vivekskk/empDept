@@ -22,3 +22,6 @@ To excute the following below steps in command-line:
 
 *This application will automatically reload if we change any of the source files.
 *We can also configure with HTTP host & port used by the dev server with command-line options as: ng serve --host 0.0.0.0 --port 4201
+
+Authour: Vivek Subramani
+vivek.skk@gmail.com
