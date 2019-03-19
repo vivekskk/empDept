@@ -1,0 +1,12 @@
+footer {
+    background-color: lightgray;
+    text-align: center;
+    box-shadow: inset 0px 3px 5px -4px rgb(181, 181, 181);
+    position: absolute;
+    padding: 8px;
+    padding: 5px 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    font-size: 12PX;
+}

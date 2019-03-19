@@ -1,0 +1,32 @@
+<!-- Menubar -->
+<p-menubar [model]="items"></p-menubar>
+<p>Click on the names to edit the record. Click <a href="javascript:void(0)" (click)="employeeAdd()">here to add record</a>.</p>
+<p-dataTable [value]="employeesData" selectionMode="single" [(selection)]="selectedEmployee" (onRowSelect)="onRowSelect($event)" [paginator]="true" [rows]="10" [responsive]="true">
+    <header>Employee Management Service</header>
+    <p-column field="firstName" header="First Name" [sortable]="true"></p-column>
+    <p-column field="lastName" header="Last Name" [sortable]="true"></p-column>
+    <p-column field="dept" header="Department" [sortable]="true"></p-column>
+</p-dataTable>
+
+<p-dialog header="Employee Details" [(visible)]="displayModelWindow" [responsive]="true" showEffect="fade" [modal]="true">
+    <div class="ui-grid ui-grid-responsive ui-fluid ui-grid-pad" *ngIf="employee">
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-8"><input pInputText id="firstName" [(ngModel)]="employee.firstName" /></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-8"><input pInputText id="brand" [(ngModel)]="employee.lastName" /></div>
+        </div>
+        <div class="ui-grid-row">
+            <!--
+            <p-multiSelect [options]="role" [(ngModel)]="selectedStatus" [maxSelectedLabels]="3" class="multiselectcss" [selectedItemsLabel]="'fff'" [filter]="false" (onPanelShow)=" funShow()" optionLabel="Department"></p-multiSelect>
+          -->
+            <div class="ui-grid-col-8"><input pInputText id="brand" [(ngModel)]="employee.dept" /></div>
+        </div>
+    </div>
+    <footer>
+        <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+            <button type="button" *ngIf="deleteBtn" pButton (click)="employeeDelete()" label="Delete"></button>
+            <button type="button" pButton (click)="employeeSave()" label="Save"></button>
+        </div>
+    </footer>
+</p-dialog>

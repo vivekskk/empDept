@@ -1,0 +1,8 @@
+<!-- Menubar -->
+<p-menubar [model]="items"></p-menubar>
+<p-dataTable [value]="employees" selectionMode="single" [(selection)]="selectedEmployee" [paginator]="true" [rows]="10" [responsive]="true">
+    <header>Employee Management Service</header>
+    <p-column field="firstName" header="First Name" [sortable]="true"></p-column>
+    <p-column field="lastName" header="Last Name" [sortable]="true"></p-column>
+    <p-column field="dept" header="Title" [sortable]="true"></p-column>
+</p-dataTable>

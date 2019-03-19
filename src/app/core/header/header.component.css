@@ -1,0 +1,10 @@
+header {
+    background-color: blueviolet;
+    padding: 20px 0;
+    min-height: 60px;
+}
+
+header h1 {
+    color: aliceblue;
+    text-align: center;
+}

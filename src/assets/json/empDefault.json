@@ -1,0 +1,8 @@
+{
+    "data": [
+        { "firstName": "Vivek", "lastName": "Subramani", "dept": "HR" },
+        { "firstName": "Subramani", "lastName": "Palaniyappan", "dept": "Finance, HR" },
+        { "firstName": "Arun", "lastName": "Kumar", "dept": "Finance" },
+        { "firstName": "David", "lastName": "John", "dept": "Admin" }
+    ]
+}
