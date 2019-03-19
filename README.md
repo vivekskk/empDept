@@ -1,6 +1,20 @@
-# EmpListDept
+# EmpListDept:  Employees with Department
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+This project:Employees with Department was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+
+## Version
+
+please install ==> npm install -g @angular/cli@7.1.4.
+Since, This project was generated with Angular CLI version 7.1.4.
+To excute the following below steps in command-line:
+
+1. npm update
+2. ng build
+3. ng serve
+4. Navigate to http://localhost:4200
+
+*This application will automatically reload if we change any of the source files.
+*We can also configure with HTTP host & port used by the dev server with command-line options as: ng serve --host 0.0.0.0 --port 4201
 
 ## Development server
 
@@ -24,4 +38,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README]
+(https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+Authour: Vivek Subramani
+vivek.skk@gmail.com
